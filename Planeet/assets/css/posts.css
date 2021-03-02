@@ -1,0 +1,170 @@
+/*
+
+----------------------------------------------------------------------------------------------
+POST BUTTON CSS BOX
+----------------------------------------------------------------------------------------------
+
+*/
+
+.myPosts {
+	height: calc(100% - 175px);
+	margin: 10px;
+	overflow: hidden;
+	overflow: scroll;
+}
+.postController {
+	margin-top: 5px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.postButton {
+	padding: 0px 10px;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: middle;
+	background-color: #437f97;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.postButton:hover {
+	background-color: #324a5f;
+}
+.postInput {
+	display: inline-block;
+	border: 0px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.uploadPostButton {
+	height: 24px;
+	padding: 0px 10px;
+	line-height: 24px;
+	vertical-align: middle;
+	background-color: darkslategrey;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.uploadPostButton:hover {
+	background-color: darkolivegreen;
+}
+
+/*
+
+----------------------------------------------------------------------------------------------
+SINGLE POST CSS BOX
+----------------------------------------------------------------------------------------------
+
+*/
+
+.post a {
+	text-decoration: none;
+}
+.post {
+	width: auto;
+	max-width: 300px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.post h5 {
+	margin: 0;
+	padding: 10px;
+	padding-bottom: 2px;
+	width: calc(100% - 20px);
+	font-weight: bold;
+	color: #437f97;
+	font-size: 15px;
+}
+.post h4 {
+	margin: 0;
+	padding: 10px;
+	padding-top: 2px;
+	width: calc(100% - 20px);
+	color: whitesmoke;
+	font-weight: normal;
+	font-size: 14px;
+}
+.post h7 {
+	margin: 0;
+	width: calc(100% - 10px);
+	text-align: right;
+	display: block;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 9px;
+	font-weight: lighter;
+	color: white;
+}
+
+/*
+
+----------------------------------------------------------------------------------------------
+IMAGES CSS BOX
+----------------------------------------------------------------------------------------------
+
+*/
+
+.imgList {
+	height: auto;
+	min-height: 200px;
+	width: 60%;
+	background-size: cover;
+	display: inline-block;
+	padding: 10px;
+	border: 0px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+.controllerButtons {
+	width: 100px;
+	margin: 0 auto;
+}
+.LeftButton {
+	height: 100%;
+	width: calc(50% - 20px);
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: whitesmoke;
+	font-weight: 700;
+}
+.rightButton {
+	height: 100%;
+	width: calc(50% - 20px);
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: whitesmoke;
+	font-weight: 700;
+}
+.LeftButton:hover {
+	color: goldenrod;
+}
+.rightButton:hover {
+	color: goldenrod;
+}
+
+/*
+
+----------------------------------------------------------------------------------------------
+END
+----------------------------------------------------------------------------------------------
+
+*/

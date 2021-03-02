@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+ 
+    <!-- Main configuration -->
+    <script src="js/info.js"></script>
+    <meta charset="utf-8">
+    <title>Sertrils | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Css files -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Js files -->
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQUERY Script-->
+    <script src="js\databaseCommands\user.js" charset="utf-8"></script>
+    <script src="js/home.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <div class = "allContent">
+      <p>Name</p>
+      <input type="text" class = "name" placeholder="Name"><br>
+      <p>Surname</p>
+      <input type="text" class = "surname" placeholder="Surname"><br>
+      <p>Bio</p>
+      <input type="text" class = "description" placeholder="description"><br>
+      <p>Birthday</p>
+      <input type="date" class = "birthDay" placeholder="Birthday"><br>
+      <p>Sentimental state</p>
+      <select class="sentimentalState">
+        <option value="free">Free</option>
+        <option value="fiance">Fiance</option>
+        <option value="married">Married</option>
+      </select><br>
+      <fieldset>      
+        <legend>What is Your Favorite Type of music?</legend>      
+        <input type="checkbox" name="favorite_music" value="pop">Pop<br>      
+        <input type="checkbox" name="favorite_music" value="rap">Hip-hop<br>      
+        <input type="checkbox" name="favorite_music" value="classic">Classic<br>
+        <input type="checkbox" name="favorite_music" value="blues">Blues<br>
+        <input type="checkbox" name="favorite_music" value="jazz">Jazz<br>
+        <input type="checkbox" name="favorite_music" value="country">Country<br>
+        <input type="checkbox" name="favorite_music" value="techno">Techno<br>
+        <input type="checkbox" name="favorite_music" value="edm">EDM<br>
+        <input type="checkbox" name="favorite_music" value="soul">Soul<br> 
+      </fieldset><br>
+      <fieldset>      
+        <legend>What is Your Favorite Type of films?</legend>      
+        <input type="checkbox" name="favorite_film" value="action">Action<br>      
+        <input type="checkbox" name="favorite_film" value="drama">Drama<br>      
+        <input type="checkbox" name="favorite_film" value="romantic">Romantic<br>
+        <input type="checkbox" name="favorite_film" value="fantasy">Fantasy<br>
+        <input type="checkbox" name="favorite_film" value="animation">Animation<br>
+        <input type="checkbox" name="favorite_film" value="thriller">Thriller<br>
+        <input type="checkbox" name="favorite_film" value="horror">Horror<br>
+        <input type="checkbox" name="favorite_film" value="commedy">Commedy<br>
+      </fieldset><br>
+      <button class = "sendInformation">Complete</button>
+    </div>
+  </body>
+</html>

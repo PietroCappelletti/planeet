@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Main configuration -->
+    <script src="js/info.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Css files -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/account.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/homepage.css" rel="stylesheet" type="text/css">
+    <link href="css/chats.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Js files -->
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQUERY Script-->
+    <script src="js/moment.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\user.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\posts.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\message.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\images.js" charset="utf-8"></script>
+    <script src="js/chats.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class = "chats">
+      <div class = "singleChat backHome">Back to Home</div>
+        <div class = "singleChat focus" id = "newChats" onClick="focusChatOpen('newChats')">Search someone &#x1F50D;</div>
+    </div>
+    
+    <div class = "openChats">
+        <div class = "singleChat focus" id = "newChats-">
+          <div class = "centerVertically">
+            <input type="text" placeholder="search" class="searchInput">
+            <ul class = "listUsersChats"></ul>
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>

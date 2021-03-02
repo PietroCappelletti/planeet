@@ -1,0 +1,204 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+.headerConfiguration {
+	height: 150px;
+	background-color: #272838;
+	line-height: 150px;
+	vertical-align: middle;
+	width: 150px;
+	float: left;
+}
+.hederInfoConfiguration {
+	display: block;
+	width: calc(100% - 150px);
+	height: 150px;
+	background-color: #272838;
+	float: right;
+}
+.profilePictureDiv {
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin: 25px 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+.username {
+	display: block;
+	overflow: hidden;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+}
+.inputUser {
+	width: calc(100% - 34px);
+	height: 23px;
+	font-size: 20px;
+	margin: 0 5px;
+	border: 0;
+	float: left;
+	color: white;
+	background-color: #272838;
+}
+.realName {
+	display: block;
+	width: 100%;
+	height: 15px;
+}
+.birthday {
+	overflow: hidden;
+	font-size: 13px;
+	width: 100%;
+}
+.realInputBirthday {
+	float: left;
+	background-color: #272838;
+	color: white;
+	border: 0px;
+	font-size: 13px;
+}
+.birthDayInputText {
+	float: left;
+}
+.inputDate {
+	background-color: darkslategray;
+	border: 0;
+	color: white;
+}
+.uploadPicturePicture {
+	background-color: darkslategrey;
+	border-radius: 10px;
+	width: max-content;
+	color: white;
+	padding: 0 10px;
+	cursor: pointer;
+	float: left;
+}
+.uploadPicturePicture:hover {
+	background-color: teal;
+}
+.bio {
+	min-width: 200px;
+	width: 100%;
+	height: 66px;
+	overflow: hidden;
+	text-align: end;
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 13px;
+	margin: 0px 10px 0 0;
+	padding-right: 10px;
+	background-color: #272838;
+	border: 0px;
+	color: white;
+}
+.world {
+	font-size: 12px;
+	line-height: 12px;
+	float: right;
+	margin-right: 20px;
+	font-weight: normal;
+}
+.rightHeader {
+	width: 50%;
+	float: left;
+	height: 100px;
+	margin: 25px 0;
+	vertical-align: top;
+}
+.leftHeader {
+	height: 150px;
+	width: 50%;
+	float: left;
+}
+
+.editAccountButton {
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	font-size: 23px;
+	width: 24px;
+	cursor: pointer;
+}
+
+.EditAccountPage {
+	height: 100%;
+	width: 100%;
+}
+
+.underContainer {
+	display: block;
+	position: absolute;
+	top: 150px;
+	width: 80%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.listMusicPref {
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+}
+.listMusicPref li {
+	background-color: olive;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	display: inline-block;
+}
+.listFilmPref {
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+}
+.listFilmPref li {
+	background-color: teal;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	display: inline-block;
+}
+.backToMain {
+	height: 15px;
+	padding: 0 10px;
+	background-color: darkslateblue;
+	width: max-content;
+	border-radius: 30px;
+	margin-top: 25px;
+	margin-right: 20px;
+	cursor: pointer;
+	float: right;
+}
+.saveEdit {
+	float: left;
+	background-color: #0ea38c;
+	border-radius: 10px;
+	width: max-content;
+	color: white;
+	padding: 0 10px;
+	cursor: pointer;
+	margin: 0 10px;
+	transition: background-color ease-in-out 0.3s;
+}
+.saveEdit:hover {
+	background-color: #0d8977;
+}
+
+@media only screen and (max-width: 650px) {
+	.underContainer {
+		width: 100%;
+	}
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Main configuration -->
+    <script src="js/info.js"></script>
+    <meta charset="utf-8">
+    <title>Sertrils | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+    <!-- Css files -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/editAccount.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/posts.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Js files -->
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQUERY Script-->
+    <script src="js/moment.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\user.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\posts.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\images.js" charset="utf-8"></script>
+    <script src="js/editaccount.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div class = "EditAccountPage">
+
+      <div class = "headerConfiguration">
+        <div class = "profilePictureDiv"></div>
+      </div>
+      <div class = "hederInfoConfiguration">
+        <div class = "rightHeader">
+          <div class = "username"><h1 class = "editAccountButton">&#10002;</h1><input type="text" placeholder="Username"class = "inputUser"></div>
+          <div class = "realName">realName</div>
+          <div class = "birthday"><p class = "birthDayInputText"></p><input type = "date" class = "realInputBirthday"></div>
+          <div class = "sentimentalState">Free</div>
+          <div class="uploadPicturePicture">change picture</div><div class = "saveEdit">save</div>
+        </div>
+        <div class = "leftHeader">
+          <div class = "backToMain">return to bacheca</div>
+          <input type = "text" class = "bio">
+          <h4 class = "world">Villager in red world</h4>
+        </div>
+      </div>
+
+      <div class = "underContainer">
+
+        <div class = "PreferMusic">
+          <ul class = "listMusicPref"></ul>
+        </div>
+
+
+        <div class = "PreferFilm">
+          <ul class = "listFilmPref"></ul>
+        </div>
+
+        <div class = "personalPosts"></div>
+
+      </div>
+    </div>
+    <input type = "file" accept=".png ,.jpg" class = "clickInputImagesProfile">
+    <input type = "date" class = "clickInputDateBirthday">
+  </body>
+</html>

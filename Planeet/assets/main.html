@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Main configuration -->
+    <script src="js/info.js"></script>
+    <meta charset="utf-8">
+    <title>Sertrils | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Css files -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/chats.css" rel="stylesheet" type="text/css">
+    <link href="css/posts.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet"> 
+ 
+    <!-- Js files -->
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQUERY Script-->
+    <script src="js/moment.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js\databaseCommands\user.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\posts.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\images.js" charset="utf-8"></script>
+    <script src="js\databaseCommands\chat.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class = "messageBox">
+
+      <div class = "toggleMessage">
+        <div class = "numNotifiche"></div>
+      </div>
+      
+      <div class = "listChats">
+        <ul class = "listChatUl">
+          
+        </ul>
+      </div>
+      <div class = "openChats">
+        <div class = "addNewChat" onClick="focusChatInList('addNewChat')"><h1>+</h1></div>
+        <div id = "-addNewChat" class = "singleChatOpen">
+          <div class = "alignNewChat">
+            <input type="text" class = "inputAddNewChat" placeholder="Add new Chat">
+            <ul class = "listAddNewChat">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+    </div>
+    
+    <div class = "container">
+      <div class = "personalMessages">
+        <div class = "searchUserBar">
+          <h1>Search</h1>
+          <input type="text" class = "searchUsers">
+        </div>
+        <div class = "outputUserDiv">
+          <ul class = "outputSearch"></ul>
+        </div>
+      </div>
+
+      <div class = "FollowedPosts">
+        <div class = "posts"></div>
+      </div>
+
+      <div class = "PersonalAccount">
+
+        <div class = "headerPersonalAccount">
+
+          <img class = "accountPicture"></img>
+          <h1 class = "changeUsernameButton">&#10002;</h1><input class = "usernameInput"></input>
+          <textarea  class = "bioProfile" cols="20" rows="2"></textarea >
+            <div class = "saveUpdates">save</div><div class = "uploadImageProfilePicture">picture</div><div class = "logOut">logOut</div>
+        </div>
+
+        <div class = "postController">
+          <input type="text" class = "postInput" placeholder="text">
+          <div class = "uploadPostButton">upload</div>
+          <div class = "postButton">Post</div>
+        </div>
+
+        <div class = "myPosts"></div>
+
+      </div>
+
+    </div>
+    
+    <div class = "underBar"></div>
+
+
+    <input type = "file" accept=".png ,.jpg" class = "clickInputImagesProfile">
+    <input type = "file" accept=".png ,.jpg" class = "clickInputImagesPost">
+  </body>
+</html>

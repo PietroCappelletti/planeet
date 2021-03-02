@@ -1,0 +1,34 @@
+body {
+	height: calc(100% - 40px);
+	height: calc(100% - 40px);
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+input {
+	padding: 6px;
+	margin: 3px;
+}
+.sendInformation {
+	padding: 10px 20px;
+	border: 0px;
+	color: white;
+	background-color: dodgerblue;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	max-height: 36px;
+	transition: ease-in-out all 0.3s;
+}
+.sendInformation:hover {
+	font-size: 16px;
+}
+.sentimentalState {
+	margin: 20px;
+}
+p {
+	margin-bottom: 2px;
+}
